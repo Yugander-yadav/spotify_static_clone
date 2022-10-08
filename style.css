@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+*{
+ margin:0;
+ padding:0;   
+}
+body{
+    background-color: black;
+}
+nav ul{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    background-color: black;
+    height: 65px;
+    align-items: center;
+    color: white; 
+    
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    height: 40px;
+    width: 40px;
+    padding: 0 5px;
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.brandName{
+    color: green;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+
+.container{
+min-height: 70vh;
+background-color: black;
+color: white;
+font-family: 'Varela Round', sans-serif;
+display: flex;
+margin: 25px auto;
+width: 70vw;
+border-radius: 12px;
+padding: 30px;
+background-image: url("./Assets/bg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+border: 1px solid white;
+
+}
+.bottom{
+    position:sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom .icons{
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 5px;
+    border-radius: 20px;
+    width: 200px;
+    margin:10px auto;
+}
+.icons img{
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: rgb(87, 85, 85);
+    border-radius: 50%;
+    padding: 1px;
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor:progress;
+    
+    
+}
+.coverSong{
+    height:50px;
+    width: 50px;
+}
+.songItem{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    width: 80%;
+    background-color: rgb(28, 28, 28);
+    border-radius: 20px;
+    margin: 10px;
+    justify-content: space-between;
+}
+.songItem div{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.songItem span{
+    margin:auto 5px;
+}
+.songItem img{
+    border-radius: 50%;
+}
+.songItem div img{
+    cursor: pointer;
+}
+
+.songInfo img{
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+.songInfo span{
+    color: antiquewhite;
+}
